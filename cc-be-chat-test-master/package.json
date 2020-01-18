@@ -1,0 +1,17 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "author": "Theodore",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0"
+  }
+}
