@@ -1,17 +1,17 @@
 // 实例化 websocket
 const WebSocket = require('ws');
 // 引用 Player 类
-var Player =  require('./Player.class');
+var Player =  require('./player.class');
 // 引用 PlayerMgr 类
-var PlayerMgr = require('./PlayerMgr.class');
+var PlayerMgr = require('./playermgr.class');
 // 引用 ChatRecords 类
-var ChatRecords = require('./ChatRecords.class');
+var ChatRecords = require('./chatrecords.class');
 // 引用 ProfanityFilter 类
-var ProfanityFilter = require('./ProfanityFilter.class');
+var ProfanityFilter = require('./profanityfilter.class');
 // 引用 GMMgr 类
-var GMMgr = require('./GMMgr.class');
+var GMMgr = require('./gmmgr.class');
 // 引用 PopularMgr 类
-var PopularMgr = require('./PopularMgr.class');
+var PopularMgr = require('./popularmgr.class');
 
 
 

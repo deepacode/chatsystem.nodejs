@@ -11,7 +11,7 @@ class ProfanityFilter {
 
   // 加载过滤字
   loadTXT() {
-    var data =fs.readFileSync("D:\\code\\cc-be-chat-test-master\\list.txt");
+    var data =fs.readFileSync("list.txt");
     var list = data.toString().split("\n");
     for(var i=0;i<list.length;++i) {
       // console.log("loadTXT：",list[i]);
